@@ -2,6 +2,9 @@
   <img src="resources/readme/fullstackreact-google-maps-tutorial.png" alt="Fullstack React Google Maps Tutorial" />
 </p>
 
+This is a fork of https://github.com/fullstackreact/google-maps-react and published as a separate package on [npmjs.com](https://www.npmjs.com/package/@peacechen/google-maps-react).
+
+
 # Google Map React Component Tutorial [![Dolpins](https://cdn.rawgit.com/fullstackreact/google-maps-react/master/resources/readme/dolphins-badge-ff00ff.svg)](https://www.fullstackreact.com)
 
 > A declarative Google Map React component using React, lazy-loading dependencies, current-location finder and a test-driven approach by the [Fullstack React](https://fullstackreact.com) team.
@@ -13,14 +16,14 @@ See the [demo](https://fullstackreact.github.io/google-maps-react) and [accompan
 First, install the library:
 
 ```shell
-npm install --save google-maps-react
+npm install --save @peacechen/google-maps-react
 ```
 ## Automatically Lazy-loading Google API
 
 The library includes a helper to wrap around the Google maps API. The `GoogleApiWrapper` Higher-Order component accepts a configuration object which *must* include an `apiKey`. See [lib/GoogleApi.js](https://github.com/fullstackreact/google-maps-react/blob/master/src/lib/GoogleApi.js#L4) for all options it accepts.
 
 ```javascript
-import {GoogleApiWrapper} from 'google-maps-react';
+import {GoogleApiWrapper} from '@peacechen/google-maps-react';
 
 // ...
 
@@ -58,7 +61,7 @@ export default GoogleApiWrapper({
 ## Sample Usage With Lazy-loading Google API:
 
 ```javascript
-import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import {Map, InfoWindow, Marker, GoogleApiWrapper} from '@peacechen/google-maps-react';
 
 export class MapContainer extends Component {
   render() {
