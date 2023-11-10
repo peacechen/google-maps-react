@@ -2,7 +2,7 @@
   <img src="resources/readme/fullstackreact-google-maps-tutorial.png" alt="Fullstack React Google Maps Tutorial" />
 </p>
 
-This is a fork of https://github.com/fullstackreact/google-maps-react and published as a separate package on [npmjs.com](https://www.npmjs.com/package/@peacechen/google-maps-react).
+This is a fork of https://github.com/fullstackreact/google-maps-react and published as a separate package on [npmjs.com](https://www.npmjs.com/package/@peacechen/google-maps-react) to unlock the peer dependencies.
 
 
 # Google Map React Component Tutorial [![Dolpins](https://cdn.rawgit.com/fullstackreact/google-maps-react/master/resources/readme/dolphins-badge-ff00ff.svg)](https://www.fullstackreact.com)
