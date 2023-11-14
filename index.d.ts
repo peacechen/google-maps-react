@@ -51,6 +51,8 @@ export interface IMapProps extends google.maps.MapOptions {
 
   visible?: boolean
 
+  children?: React.ReactNode
+
   onReady?: mapEventHandler
   onClick?: mapEventHandler
   onDragend?: mapEventHandler
